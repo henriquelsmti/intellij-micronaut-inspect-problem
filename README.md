@@ -1,1 +1,1 @@
-#Project to exemplify code debugging problem with IntelliJ IDEA
+### Project to exemplify code debugging problem with IntelliJ IDEA
