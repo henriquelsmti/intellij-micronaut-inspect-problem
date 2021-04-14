@@ -10,17 +10,10 @@ import javax.transaction.Transactional
 @Transactional
 class TransactionalExemple {
 
-	String publicVar
-	String publicFinalVar
-	private String privateVar
-	private final String privateFinalVar
-
-	TransactionalExemple() {
-		publicVar = 'publicVar'
-		publicFinalVar = 'publicFinalVar'
-		privateVar = 'privateVar'
-		privateFinalVar = 'privateFinalVar'
-	}
+	String publicVar = 'publicVar'
+	String publicFinalVar = 'publicFinalVar'
+	private String privateVar = 'privateVar'
+	private final String privateFinalVar = 'privateFinalVar'
 
 	void toDo() {
 		println(publicVar)
